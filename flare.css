@@ -1,0 +1,38 @@
+flare {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 185px;
+    transform: skewX(-30deg);
+    animation: flareAnimation;
+    left: -180%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.314), rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0));
+    animation: flareAnimation 1s linear; 
+}
+flare2 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 185px;
+    transform: skewX(-30deg);
+    animation: flareAnimation;
+    left: -180%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.153), rgba(255, 255, 255, 0.314), rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0));
+    animation: flareAnimation 2s infinite linear; 
+}
+
+
+
+@keyframes flareAnimation {
+    0% {
+        left: -180%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        left: 80%;
+        opacity: 0;
+    }
+}
