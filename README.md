@@ -62,7 +62,7 @@ flare {
 #### Required parameters for the element.
 ```CSS
 /*....*/
-#poiner {
+#point {
     position: relative;
     overflow: hidden;
 }
