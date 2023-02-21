@@ -19,12 +19,12 @@ window.addEventListener("load", () => {
 });
 
 // jquery
-$(document).ready(function(){
+$(document).ready(function() {
     setTimeout(() => {
-        $('#point').hover(function () {
-                $(this).append('<flare></flare>');
-            }, function () {
-                this.querySelector('flare').remove();
+        $("#point").hover(function() {
+                $(this).append("<flare></flare>");
+            }, function() {
+                this.querySelector("flare").remove();
             }
         );
     }, 1000);
